@@ -9,6 +9,8 @@ Note, the best way to use this repo is to "fork it", delete the .elasticbeanstal
 
 ### Deploy via AWs Cloud9 + AWS Code Build
 
+*Video here https://www.youtube.com/watch?v=iSv-i1tWpQc
+
 *You can refer to tutorial [here as well for Flask EB](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html)*
 
 A.  check out this repo and cd into it
