@@ -9,7 +9,7 @@ Note, the best way to use this repo is to "fork it", delete the .elasticbeanstal
 
 ### Deploy via AWs Cloud9 + AWS Code Build
 
-*Video here https://www.youtube.com/watch?v=iSv-i1tWpQc
+*Video here https://www.youtube.com/watch?v=PkJBn3X4LYw
 
 *You can refer to tutorial [here as well for Flask EB](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html)*
 
@@ -52,5 +52,5 @@ python3 -m venv ~/.eb
 source ~/.eb/bin/activate
 make all
 git rm -r .elasticbeanstalk
-eb init -p python-3.7 flaskmap-continuous-delivery --region us-west-2
+eb init -p python-3.7 flask-map-cd --region us-west-2
 
