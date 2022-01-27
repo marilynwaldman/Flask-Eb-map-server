@@ -43,3 +43,14 @@ F.  Suggested next steps (Convert to ML Engineering project [like this project](
 
 * [Complete Walkthrough of Process on O'Reilly Platform](https://learning.oreilly.com/videos/aws-elastic-beanstalk/62022021VIDEOPAIML/62022021VIDEOPAIML-c1_s0)
 * [Previous YouTube Walkthrough](https://youtu.be/iSv-i1tWpQc)
+
+
+Notes on cloudl9
+git clone https://github.com/marilynwaldman/Flask-Eb-map-server.git
+cd Flask-Eb-map-server
+python3 -m venv ~/.eb
+source ~/.eb/bin/activate
+make all
+git rm -r .elasticbeanstalk
+eb init -p python-3.7 flaskmap-continuous-delivery --region us-west-2
+
