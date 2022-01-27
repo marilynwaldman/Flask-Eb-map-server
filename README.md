@@ -53,4 +53,6 @@ source ~/.eb/bin/activate
 make all
 git rm -r .elasticbeanstalk
 eb init -p python-3.7 flask-map-cd --region us-west-2
+eb init
+eb create flask-map-cd-env
 
