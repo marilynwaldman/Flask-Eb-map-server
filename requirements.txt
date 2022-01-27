@@ -1,0 +1,12 @@
+pytest
+pylint
+awsebcli
+Flask==2.0.2
+Jinja2==3.0.1
+requests==2.26.0
+urllib3==1.26.6
+Werkzeug==2.0.1
+jsonify==0.5
+geopandas==0.10.2
+folium==0.12.1
+branca==0.4.2
