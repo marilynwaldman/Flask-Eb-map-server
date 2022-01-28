@@ -4,9 +4,9 @@ import datetime as dt
 from datetime import datetime
 from flask import Flask, render_template, render_template_string, redirect, send_file, make_response
 #from flask import jsonify
-#from make_map import make_map 
-from weather_data import  get_weather_data
-from weather_map import make_weather_map 
+from make_map import make_map 
+#from weather_data import  get_weather_data
+#from weather_map import make_weather_map 
 #import geopandas as gpd
 #import pandas as pd
 
@@ -42,7 +42,7 @@ def main():
 
 @application.route('/index.html', methods=['GET'])
 def index():
-    
+    """
     # Get weather data (geopandas dataframe)
     weather_df =  get_weather_data()
 
@@ -52,8 +52,9 @@ def index():
     # Create the map
 
     map_html = make_weather_map(weather_df)
+    """
     #print("in maps")
-    #map_html = make_map()
+    map_html = make_map()
     if map_html is None:
         print("map not saved")
         return redirect('/maperror.html')
