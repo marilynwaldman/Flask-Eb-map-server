@@ -65,6 +65,7 @@ def get_weather_data():
         if os.path.exists(infile):
             weather_df = gpd.read_file(infile)    
             weather_df = weather_df.drop(columns=['PHENOM','SIG','WFO','EVENT','CAP_ID','MSG_TYPE','VTEC'])  
+            weather_df['geometry']=weather_df['geometry'].simplify(tolerance=0.001)
             return weather_df
         else:
             return None     
