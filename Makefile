@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	eb deploy flask-map-cd-env
+	eb deploy flask-weather-cd-env
 
 all:   install lint test 
